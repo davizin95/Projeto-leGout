@@ -1,0 +1,124 @@
+body {
+    font-family: Strato Pro SC Bold, Strato Pro SC Bold;
+    background-color: #fce4ec; /* Rosa claro */
+    color: #333; /* Cor do texto */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #F8B9CE; /* Fundo branco */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-top: 30px;
+    background-image: url('./img/4758726-seamless-easter-day-egg-pattern-with-hand-drawn-traditional-christian-black-white-colored-eggs-random-fall-on-light-blue-background-vector-illustration-glitch-effect-elements-vetor-removebg-pr.png');
+    background-size: cover;
+    background-position: center;
+}
+
+ h3 {
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: left;
+    color: #4D3539; /* Rosa mais escuro */
+}
+
+h2 {
+    color: #4D3539; /* Rosa mais escuro */
+    margin-top: 20px;
+}
+
+h3 {
+    color: #4D3539; /* Rosa mais escuro */
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 0px;
+}
+
+.item {
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.row > div {
+    flex: 1;
+    text-align: left;
+    margin-right: 20px; /* Adicionei essa linha para separar os elementos dentro da row */
+}
+
+.sabores, .fazemosTB {
+    text-align: left;
+}
+
+.fazemosTB {
+    text-align: right; 
+}
+
+.fazemosTB h3 {
+    text-align: right;
+}
+
+ul.fazemosTB {
+    text-align: right; /* Ajustei para ".ul.fazemosTB" para ".ul.fazemosTB" */
+}
+.valor {
+    margin-bottom: 20px; /* Adiciona margem na parte inferior do elemento "valor" */
+}
+.contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Ajuste a altura conforme necessário */
+}
+
+.contato h3, .contato ul {
+    margin: 0;
+    padding: 0;
+}
+
+.contato ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.contato li {
+    margin-bottom: 5px;
+}
+.contato li img {
+    vertical-align: middle;
+    margin-bottom: 0px; /* Ajuste conforme necessário */
+}
+.titulo {
+    text-align: center;
+    font-size: 36px; /* Tamanho do texto "CARDÁPIO" */
+    margin-bottom: 5px; /* Espaço entre "CARDÁPIO" e "de PÁSCOA" */
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 30px; /* Tamanho do texto "de PÁSCOA" */
+}
+.titulo {
+    text-align: left;
+    font-size: 36px; /* Tamanho do texto "CARDÁPIO" */
+    margin-bottom: 5px; /* Espaço entre "CARDÁPIO" e "de PÁSCOA" */
+}
